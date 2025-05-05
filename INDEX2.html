@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <style>
+       img:hover {
+        transform: scale(3);
+       }
+       img{
+        transition: transform 4s;
+        display: block;
+        margin: 80px auto 0 auto;
+        text-align: center;
+        
+       }
+       @keyframes flotar {
+        0% { transform: translateY(0); }
+        50% { transform: translateY(-10px); }
+        100% { transform: translateY(0); }
+       }
+       .flotando {
+       animation: flotar 2s infinite ease-in-out;
+       } 
+    </style>
+    </head>
+    <body>
+        <img src="C:\Users\LAB-USR-LNORTE\Pictures\Screenshots\Captura de pantalla 2025-03-24 214604.png" alt="Imagen de prueba">
+        <div class="flotando">¡Hola!</div>
+    </body>
+</html>
